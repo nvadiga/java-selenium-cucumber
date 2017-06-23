@@ -8,7 +8,7 @@ import org.junit.runner.RunWith;
  * Created by nvadiga on 9/6/2017.
  */
 @RunWith(Cucumber.class)
-@CucumberOptions( features = {"org/nvadiga/features"},
+@CucumberOptions( features = {"src/org/nvadiga/features"},
                 plugin ={"pretty","com.cucumber.listener.ExtentCucumberFormatter:results/report.html"},
                 glue = {"org/nvadiga/stepdefinitions"})
 
